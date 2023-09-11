@@ -1,5 +1,13 @@
-Bit Manipulation in C
-This C program demonstrates bit manipulation using the OR operator to set a specific bit in an integer variable.
+Bit Manipulation in C:
+
+Problem Description: You are given two integers, n and pos. Your task is to set the bit at the pos-th position (0-based index) in the binary representation of n to 1. Return the modified integer.
+
+Example:
+Input:
+n = 5 (binary representation: 0101)
+pos = 2
+Output:
+Modified n = 7 (binary representation: 0111)
 
 Code Explanation
 The program defines two integer variables: n and pos, where n represents the number you want to manipulate, and pos represents the position of the bit you want to set.
