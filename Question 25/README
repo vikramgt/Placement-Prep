@@ -1,0 +1,37 @@
+Problem Statement: Print Even Prime Numbers in a Range
+
+Description:
+
+You are given a range of numbers from 300 to 599. Your task is to find and print all the prime numbers within this range, but only the ones that have an even position in the sequence of prime numbers. In other words, you should print the prime numbers at positions 2, 4, 6, and so on within the sequence of prime numbers in this range.
+
+Example:
+
+Output:
+
+311
+359
+419
+431
+461
+521
+569
+571
+Code Explanation:
+
+The code initializes a variable c to 0. This variable will be used to count the prime numbers found.
+
+It enters a for loop that iterates over the range of numbers from 300 to 599 (inclusive), denoted as for i in range(300, 600, 1).
+
+Inside this loop, a variable p is initialized to 0. This variable will be used to check if a number is prime.
+
+Another nested for loop is used to iterate from 2 to half of the current number i, denoted as for j in range(2, (i // 2) + 1).
+
+Within the inner loop, the code checks if the current number i is divisible by j. If it is, p is set to 1, indicating that the number is not prime.
+
+After the inner loop, the code checks the value of p. If p is still 0, it means that the current number i is prime.
+
+If a prime number is found (p == 0), the code increments the c variable to count the prime numbers.
+
+It then checks if the count c is even (c % 2 == 0). If it is, it means the prime number is at an even position in the sequence of prime numbers, and it prints the prime number.
+
+This code effectively finds and prints the prime numbers within the range from 300 to 599, but it only prints the ones that are at even positions in the sequence of prime numbers within that range.
