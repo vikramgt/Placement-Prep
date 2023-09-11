@@ -1,0 +1,30 @@
+Description:
+
+You are given a string str and an integer r. Your task is to apply Caesar Cipher encryption to the string by rotating each alphabetical character by r positions to the right in the alphabet. Non-alphabetical characters should remain unchanged. Print the encrypted string.
+
+Example:
+
+Input:
+
+str = "Hello, World!"
+r = 3
+Output:
+
+"After Rotation: Khoor, Zruog!"
+Code Explanation:
+
+The program first prompts the user to enter a string (str) and an integer (rotation) representing the number of positions to rotate each alphabetical character.
+
+It calls the cesar function, passing the str and rotation as arguments.
+
+The cesar function is defined to perform Caesar Cipher encryption on the input string. It initializes an integer i for iteration.
+
+It iterates through the characters of the string using a for loop. For each character, it checks if it is an alphabetical character using the isalpha function.
+
+If the character is alphabetical, it applies the Caesar Cipher rotation by adding r to the ASCII value of the character. This effectively rotates the character to the right in the alphabet.
+
+The program continues iterating through the string, applying the rotation only to alphabetical characters while leaving non-alphabetical characters unchanged.
+
+After processing the entire string, the program prints the encrypted string with the message "After Rotation."
+
+This code allows you to encrypt a given string using the Caesar Cipher by rotating each alphabetical character by a specified number of positions to the right.
