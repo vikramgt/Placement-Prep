@@ -1,5 +1,12 @@
-Convert String to Uppercase in C
-This C program converts a given string to uppercase.
+Problem Statement: Convert String to Uppercase
+
+Description:
+You are given a string s containing a sequence of characters. Your task is to convert all lowercase letters in the string to uppercase. Return the modified string.
+
+Example:
+Input: "Hello, World!"
+Output: "HELLO, WORLD!"
+
 
 Code Explanation
 The program defines a character array s with a size of 150 characters.
