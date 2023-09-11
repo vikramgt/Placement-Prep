@@ -1,0 +1,32 @@
+Problem Statement: Perform Circular Shifts on an Array
+
+Description:
+You are given an array a containing integer elements and a choice ch to perform circular shifts on the array. You can choose to shift the elements to the left or right by a specified number of positions. Your task is to implement a function shift(ch, a) that performs the circular shift as per the choice and returns the modified array.
+
+If ch is 1, perform a left circular shift on the array a.
+If ch is 2, perform a right circular shift on the array a.
+
+Example:
+Input:
+a = [1, 2, 3, 4, 5]
+ch = 1 (left circular shift)
+
+Output:
+[2, 3, 4, 5, 1]
+(Explanation: The array is shifted to the left by 1 position.)
+
+Code Explanation:
+
+The program defines a function shift(ch, a) that takes two arguments: ch for the choice of shift (left or right) and a for the input array.
+
+Inside the function, it first checks the value of ch. If ch is 1, it performs a left circular shift; if ch is 2, it performs a right circular shift.
+
+For a left circular shift (if ch is 1), it asks the user for the number of times to shift to the left (d). It then uses a for loop to shift the elements to the left by repeatedly removing the first element and appending it to the end of the array (a).
+
+For a right circular shift (if ch is 2), it asks the user for the number of times to shift to the right (d). It uses a for loop to shift the elements to the right by repeatedly removing the last element and inserting it at the beginning of the array (a).
+
+The modified array a is returned by the function.
+
+The main part of the code initializes an array a and prompts the user to choose either a left (1) or right (2) circular shift. It then calls the shift function to perform the circular shift and prints the modified array.
+
+This code effectively performs circular shifts on an array based on the user's choice and returns the modified array.
