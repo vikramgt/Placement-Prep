@@ -1,0 +1,20 @@
+Problem Statement: Check if a Specific Bit is Set in a Number
+
+Description:
+You are given an integer n and a position pos. Your task is to check if the bit at the specified position pos is set (i.e., it's equal to 1) or not (i.e., it's equal to 0). Print 1 if the bit is set, and 0 if it's not set.
+
+Example:
+Input:
+n = 5 (binary representation: 0101)
+pos = 1
+
+Output:
+"1" (because the bit at position 1 is set)
+
+Code Explanation:
+
+The program first declares two integer variables, n and pos, to represent the number and the position of the bit to be checked.
+It uses a conditional statement (if) to check if the bit at position pos in the binary representation of n is set or not. This check is performed using the bitwise AND (&) operation along with a bit mask created by left-shifting 1 by pos positions (1 << pos).
+If the result of the bitwise AND operation is not equal to 0, it means that the bit at position pos is set, and the program prints "1."
+If the result is equal to 0, it means that the bit at position pos is not set, and the program prints "0."
+This code allows you to check if a specific bit at a given position is set or not in a given integer n and print the result.
