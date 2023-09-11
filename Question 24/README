@@ -1,0 +1,24 @@
+Problem Statement: Arithmetic Progression Sum Calculation
+
+Description:
+You are given the first term (a), common difference (d), and the value of n (number of terms) in an arithmetic progression. Your task is to calculate and print the sum of the first n terms of the arithmetic progression.
+
+Example:
+Input:
+First term a = 2
+Common difference d = 3
+Number of terms n = 5
+
+Output:
+"The sum of the first 5 terms of the arithmetic progression is: 35"
+
+Code Explanation:
+The program first prints a message to indicate that it will calculate the sum of an arithmetic progression.
+It then prompts the user to enter three integer values: a (the first term), d (the common difference), and n (the number of terms) using scanf.
+The program calculates the sum of the first n terms of the arithmetic progression using the formula:
+
+sum = (n/2) * [2a + (n-1)d]
+
+This formula calculates the sum of an arithmetic progression efficiently.
+Finally, the program prints the calculated sum along with a message indicating the result.
+This code allows you to calculate and print the sum of the first n terms of an arithmetic progression based on the provided values of a, d, and n.
