@@ -1,5 +1,12 @@
-String Reversal in C++
-This C++ program demonstrates how to reverse a string containing numbers separated by spaces.
+Problem Statement: Reverse String with Delimited Numbers
+
+Description:
+
+You are given a string num containing numbers separated by spaces. Your task is to reverse the string while keeping the numbers and spaces in their original positions. Return the reversed string.
+
+Example:
+Input: "1 2 3 4"
+Output: "4 3 2 1"
 
 Code Explanation
 The program defines a function reverse that takes a string (number) as input and reverses it.
