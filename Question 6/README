@@ -1,0 +1,36 @@
+Problem Statement: Calculate the Sum of Diagonal Elements in a Matrix
+
+Description:
+
+You are given a matrix mat with row rows and col columns. Your task is to calculate and print the sum of the elements on the main diagonal of the matrix, where the row index and column index are the same.
+
+Example:
+
+Input:
+
+Number of rows (row) = 3
+Number of columns (col) = 3
+Matrix Elements:
+Copy code
+1 2 3
+4 5 6
+7 8 9
+Output:
+
+"The elements are: 1 2 3 4 5 6 7 8 9"
+"The sum of the diagonal elements is: 15"
+Code Explanation:
+
+The program first initializes integer variables i, j, row, col, mat[10][10], and sum. row and col represent the number of rows and columns in the matrix, i and j are used for iteration, mat is a 2D array to store the matrix elements, and sum will store the sum of diagonal elements.
+
+The program prints a message to prompt the user to enter the number of rows and columns of the matrix (row and col) using scanf.
+
+It then enters two nested loops to read the elements of the matrix using scanf. The outer loop iterates through the rows, and the inner loop iterates through the columns.
+
+After reading the matrix elements, the program enters another set of nested loops to print the elements of the matrix in a row-wise format.
+
+Next, the program enters another set of nested loops to calculate the sum of the diagonal elements. It checks if the current element is on the main diagonal by comparing the row index (i) with the column index (j), and if they are the same, it adds the element to the sum variable.
+
+Finally, the program prints the calculated sum as "The sum of the diagonal elements is: [sum]" using printf.
+
+This code effectively calculates and prints the sum of the elements on the main diagonal of a matrix based on the provided matrix size and elements.
