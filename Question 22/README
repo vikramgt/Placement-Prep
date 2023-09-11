@@ -1,0 +1,20 @@
+Problem Statement: Clear a Specific Bit in a Number
+
+Description:
+You are given an integer n and a position pos. Your task is to clear (set to 0) the bit at the specified position pos in the binary representation of n. Print the resulting integer after clearing the bit.
+
+Example:
+Input:
+n = 5 (binary representation: 0101)
+pos = 1
+
+Output:
+"The number after clearing the bit at position 1 is: 4" (binary representation: 0100)
+
+Code Explanation:
+
+The program first declares two integer variables, n and pos, to represent the number and the position of the bit to be cleared.
+It uses a bitwise AND (&) operation along with a bit mask created by left-shifting 1 by pos positions (1 << pos) to clear (set to 0) the bit at position pos in the binary representation of n.
+Specifically, it uses the bitwise NOT (~) operation on the bit mask to flip all bits except the one at position pos to 0. Then, it performs the bitwise AND operation with n to clear the bit at that position.
+Finally, the program prints the resulting integer after clearing the bit.
+This code allows you to clear a specific bit at a given position in an integer n and print the resulting integer.
