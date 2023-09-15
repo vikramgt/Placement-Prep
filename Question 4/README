@@ -1,0 +1,30 @@
+Problem Statement: Calculate the Sum of Secondary Diagonal Elements in a Square Matrix
+
+Description:
+You are given a square matrix of size n x n. Your task is to calculate and print the sum of the elements in the diagonal from the top-left corner to the bottom-right corner. Specifically, you need to calculate the sum of elements where the row number and column number are the same, i.e., the main diagonal.
+
+Example:
+Input:
+n = 3
+
+Matrix:
+1 2 3
+4 5 6
+7 8 9
+
+Output:
+"Sum is: 15"
+
+Code Explanation:
+
+The program first initializes integer variables n, i, j, and sum. n represents the size of the square matrix, i and j are used for iteration, and sum will store the sum of diagonal elements.
+
+The program prints a message to prompt the user to enter the matrix elements using nested for loops. It uses scanf to read the elements into the 2D array m.
+
+After reading the matrix elements, the program enters another set of nested for loops to iterate through the matrix and calculate the sum of diagonal elements. Specifically, it checks if the current element is on the main diagonal by comparing the row index (i) with the column index (j).
+
+If i is equal to j, it means the element is on the main diagonal, so the program adds that element to the sum variable.
+
+After completing the iteration, the program prints the calculated sum as "Sum is: [sum]" using printf.
+
+This code effectively calculates and prints the sum of the elements in the main diagonal of a square matrix based on the provided matrix size and elements.

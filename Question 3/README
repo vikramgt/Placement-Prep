@@ -1,0 +1,26 @@
+Problem Statement: Convert String to Lowercase
+
+Description:
+You are given an input string s containing a sequence of characters. Your task is to convert all uppercase letters in the string to lowercase. Return the modified string.
+
+Example:
+Input: "Hello, World!"
+Output: "hello, world!"
+
+Code Explanation:
+
+The program first declares a character array s with a size of 150 characters to store the input string.
+
+It initializes an integer i for iteration.
+
+The program prints a message to prompt the user to enter a string using scanf. The %[^\n] format specifier is used to read the entire line until the newline character.
+
+It enters a for loop to iterate through each character in the string s.
+
+Inside the loop, the program checks if the current character is an uppercase letter by comparing it with the ASCII values of 'A' and 'Z' using the condition if (s[i] >= 'A' && s[i] <= 'Z').
+
+If the character is uppercase, it converts it to lowercase by adding 32 to its ASCII value. This conversion works because the ASCII values of uppercase and lowercase letters have a difference of 32.
+
+After the loop finishes processing the entire string, the program prints the modified string, which is now in lowercase.
+
+This code allows you to convert all uppercase letters in an input string to lowercase and then prints the modified lowercase string.

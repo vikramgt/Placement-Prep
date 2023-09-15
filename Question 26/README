@@ -1,0 +1,37 @@
+Problem Statement: Matrix Addition
+
+Description:
+You are given two matrices, matrix A and matrix B, both having the same number of rows (r1) and columns (c1). Your task is to calculate and print the result of adding these two matrices.
+
+Example:
+Input:
+Number of rows and columns: r1 = 3, c1 = 3
+Matrix A:
+1 2 3
+4 5 6
+7 8 9
+
+Matrix B:
+9 8 7
+6 5 4
+3 2 1
+
+Output:
+The addition of the matrix 1 and 2 is:
+The resultant matrix is: 10 10 10
+                        10 10 10
+                        10 10 10
+
+Code Explanation:
+
+The program first prompts the user to enter the number of rows and columns of the matrices (r1 and c1) using scanf.
+
+It then enters two nested loops to read the elements of both matrices, matrix A (a) and matrix B (b), using two separate sets of loops. These loops iterate through each row and column of the matrices.
+
+Inside the loops for reading matrix A and matrix B, the program uses scanf to read the values of the elements into arrays a and b.
+
+After reading both matrices, the program enters another set of nested loops to calculate the sum of the corresponding elements of matrices A and B and store them in the sum matrix.
+
+Finally, the program prints the result of the addition as the resultant matrix by iterating through the sum matrix and displaying its elements row by row.
+
+This code effectively performs matrix addition and prints the result by iterating through the matrices A and B, adding corresponding elements, and storing the result in the sum matrix. It then prints the sum matrix as the resultant matrix.

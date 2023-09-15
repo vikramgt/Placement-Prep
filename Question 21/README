@@ -1,0 +1,24 @@
+Problem Statement: Find the Closest Number Divisible by Another Number Using ABS
+
+Description:
+You are given two integers, n and m. Your task is to find and print the closest number to n that is divisible by m.
+
+Example:
+Input:
+
+n = 17
+m = 5
+
+Output:
+"The closest number to 17 divisible by 5 is: 15"
+Code Explanation:
+
+The program first prompts the user to enter two integers, n and m, for which the closest number divisible by m needs to be calculated.
+It calls the closest function, passing n and m as arguments.
+The closest function is defined to find the closest number to n that is divisible by m. It calculates q as the quotient of n divided by m. It then calculates two potential candidates for the closest number:
+p1 = q * m
+p2 = (n * m) > 0 ? (m * (q + 1)) : (m * (q - 1))
+The abs function is used to calculate the absolute difference between n and each candidate, i.e., abs(n - p1) and abs(n - p2).
+The function compares the absolute differences and returns the candidate with the smaller absolute difference as the result.
+Finally, the main function prints the closest number found.
+This code allows you to find and print the closest number to n that is divisible by m based on the absolute difference between the potential candidates.

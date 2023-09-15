@@ -1,0 +1,31 @@
+Problem Statement: Find the Smallest Number in an Array
+
+Description:
+You are given an array a containing m integer elements. Your task is to find and print the smallest number among these elements.
+
+Example:
+Input:
+m = 5
+Array Elements: [7, 2, 10, 4, 1]
+
+Output:
+"The entered elements are: 7 2 10 4 1"
+"The smallest number is: 1"
+
+Code Explanation:
+
+The program first initializes integer variables m, i, and min. m represents the number of elements in the array, i is used for iteration, and min will store the smallest number found in the array.
+
+The program prints a message to prompt the user to enter the number of elements in the array (m) using scanf.
+
+It then enters a for loop to read the elements of the array a using scanf. The loop iterates m times to read all the elements.
+
+After reading the array elements, the program enters another for loop to print the entered elements in the array in a space-separated format.
+
+Next, the program initializes the min variable with the first element of the array, min = a[0].
+
+It enters another for loop to iterate through the array and find the smallest number. Within this loop, it checks if the current element a[i] is smaller than the current minimum min. If it is, it updates the min variable with the new smallest value.
+
+Finally, the program prints the smallest number found as "The smallest number is: [min]" using printf.
+
+This code effectively finds and prints the smallest number among the elements in an array based on the provided array size and elements.

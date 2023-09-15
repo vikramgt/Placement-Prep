@@ -1,0 +1,27 @@
+Problem Statement: Calculate Sum of Even and Odd Numbers in an Array
+
+Description:
+You are given an array a containing n integer elements. Your task is to calculate and print the sum of even and odd numbers separately within the array.
+
+Example:
+Input:
+n = 5
+Array Elements: [2, 4, 7, 1, 6]
+
+Output:
+"The sum of even numbers is: 12"
+"The sum of odd numbers is: 8"
+
+Code Explanation:
+
+The program first initializes integer variables i, j, n, even, and odd. n represents the size of the array, i and j are used for iteration, and even and odd will store the sums of even and odd numbers, respectively.
+
+The program prints a message to prompt the user to enter the size of the array (n) and then the array elements using a for loop with scanf.
+
+After reading the array elements, the program enters another for loop to iterate through the array and calculate the sum of even and odd numbers.
+
+Within the loop, it checks if the current element a[i] is even or odd using the condition if (a[i] % 2 == 0). If it's even, it adds it to the even variable; otherwise, it adds it to the odd variable.
+
+After completing the iteration, the program prints the calculated sums of even and odd numbers separately using printf.
+
+This code effectively calculates and prints the sum of even and odd numbers within an array based on the provided array size and elements.

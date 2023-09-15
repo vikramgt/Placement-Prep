@@ -1,0 +1,27 @@
+Problem Statement: Calculate the Sum of Numbers Divisible by Both 3 and 5 in a Range
+
+Description:
+You are given two integer values, m and n, representing the lower and upper bounds of a range, respectively. Your task is to calculate and print the sum of all numbers within this range that are divisible by both 3 and 5.
+
+Example:
+Input:
+Lower bound (m) = 10
+Upper bound (n) = 30
+
+Output:
+"The sum is: 45"
+(Explanation: The numbers in the range 10 to 30 that are divisible by both 3 and 5 are 15 and 30. Their sum is 45.)
+
+Code Explanation:
+
+The program first initializes integer variables n, m, i, and p. m and n represent the lower and upper bounds of the range, i is used for iteration, and p will store the sum of numbers divisible by both 3 and 5.
+
+The program prints a message to prompt the user to enter the bounds of the range (m and n) using scanf.
+
+It enters a for loop with i ranging from m to n (inclusive) to iterate through the numbers in the specified range.
+
+Inside the loop, it checks if the current value of i is divisible by both 3 and 5 using the condition if (i % 3 == 0 && i % 5 == 0). If the condition is true, it adds the current value of i to the sum p.
+
+After completing the iteration, the program prints the sum of the numbers that meet the condition as "The sum is: [p]" using printf.
+
+This code effectively calculates and prints the sum of numbers within a specified range that are divisible by both 3 and 5 based on the provided lower and upper bounds.
