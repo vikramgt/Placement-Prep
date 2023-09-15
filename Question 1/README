@@ -5,7 +5,7 @@ Problem Description: You are given two integers, n and pos. Your task is to set 
 Example:
 Input:
 n = 5 (binary representation: 0101)
-pos = 2
+pos = 1
 Output:
 Modified n = 7 (binary representation: 0111)
 
