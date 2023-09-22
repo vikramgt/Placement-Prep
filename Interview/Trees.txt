@@ -1,0 +1,16 @@
+Trees:
+
+Question: What is a binary tree, and how does it differ from a binary search tree (BST)?
+Answer: A binary tree is a hierarchical data structure where each node has at most two children, referred to as the left child and the right child. A binary search tree is a specific type of binary tree where the values in the left subtree are smaller than the root, and the values in the right subtree are larger. This property allows for efficient searching.
+
+Question: How do you perform an in-order traversal of a binary tree?
+Answer: In an in-order traversal of a binary tree, you first visit the left subtree, then the current node, and finally the right subtree. This results in visiting nodes in ascending order when applied to a BST.
+
+Question: Explain the concept of a balanced binary tree.
+Answer: A balanced binary tree is a binary tree where the height of the left and right subtrees of any node differs by at most one. This ensures that the tree remains relatively balanced, which helps maintain efficient operations like insertion, deletion, and searching.
+
+Question: What is the difference between depth and height in a binary tree?
+Answer: The height of a binary tree is the length of the longest path from the root node to a leaf node. The depth of a node is its distance from the root node. The depth of the root node is 0, and the height of the tree is the height of the root node.
+
+Question: How can you check if a binary tree is a binary search tree (BST)?
+Answer: To check if a binary tree is a BST, you can perform an in-order traversal of the tree and ensure that the visited nodes are in ascending order. If the in-order traversal results in a sorted sequence, the tree is a BST; otherwise, it is not.

@@ -1,0 +1,16 @@
+Linked Lists:
+
+Question: What is a linked list, and how is it different from an array?
+Answer: A linked list is a linear data structure where each element is a separate object called a node. Unlike arrays, linked lists do not have a fixed size, and elements are not stored in contiguous memory locations. Instead, each node points to the next node in the sequence, forming a chain.
+
+Question: Explain the difference between a singly linked list and a doubly linked list.
+Answer: In a singly linked list, each node has a reference to the next node, while in a doubly linked list, each node has references to both the next and the previous nodes. This allows for easier traversal in both directions in a doubly linked list, but it consumes more memory.
+
+Question: How can you reverse a singly linked list?
+Answer: You can reverse a singly linked list by iteratively reversing the links between nodes. Start from the first node, set its next pointer to NULL, and reverse the direction of pointers as you traverse the list.
+
+Question: What is the time complexity for searching an element in a singly linked list?
+Answer: The time complexity for searching an element in a singly linked list is O(n) in the worst case, where n is the number of nodes in the list. This is because you may need to traverse the entire list to find the desired element.
+
+Question: How do you detect and remove a loop in a linked list?
+Answer: To detect and remove a loop in a linked list, you can use Floyd's Cycle Detection Algorithm (also known as the "tortoise and hare" algorithm). If a loop is detected, you can find the starting point of the loop and remove it by breaking the loop at that point.
