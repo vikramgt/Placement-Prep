@@ -1,0 +1,22 @@
+Question: What are some applications of DSA?
+Answer: Decision Making, Genetics, Image Processing, Blockchain, Numerical and Statistical Analysis, Compiler Design, Database Design.
+
+Question: Describe the types of Data Structures.
+Answer: 
+Linear Data Structure: A data structure that includes data elements arranged sequentially or linearly, where each element is connected to its previous and next nearest elements, is referred to as a linear data structure. Arrays and linked lists are two examples of linear data structures.
+Non-Linear Data Structure: Non-linear data structures are data structures in which data elements are not arranged linearly or sequentially. We cannot walk through all elements in one pass in a non-linear data structure, as in a linear data structure. Trees and graphs are two examples of non-linear data structures.
+
+Question: What is a stack data structure? What are the applications of stack?
+Answer: A stack is a data structure that is used to represent the state of an application at a particular point in time. The stack consists of a series of items that are added to the top of the stack and then removed from the top. It is a linear data structure that follows a particular order in which operations are performed. LIFO (Last In First Out) or FILO (First In Last Out) are two possible orders. A stack consists of a sequence of items. The element that's added last will come out first, a real-life example might be a stack of clothes on top of each other. When we remove the cloth that was previously on top, we can say that the cloth that was added last comes out first.
+Applications: It acts as temporary storage during recursive operations, Redo and Undo operations in doc editors, Reversing a string, Parenthesis matching, Postfix to Infix Expressions, Function calls order.
+
+Question: What is a queue data structure? What are the applications of queue?
+Answer: A queue is a linear data structure that allows users to store items in a list in a systematic manner. The items are added to the queue at the rear end until they are full, at which point they are removed from the queue from the front. Queues are commonly used in situations where the users want to hold items for a long period of time, such as during a checkout process. A good example of a queue is any queue of customers for a resource where the first consumer is served first.
+Applications: Breadth-first search algorithm in graphs
+Operating system: Job scheduling operations, Disk scheduling, CPU scheduling etc., Call management in call centres.
+
+Question: Elaborate on different types of array data structure.
+Answer: 
+One-dimensional array: A one-dimensional array stores its elements in contiguous memory locations, accessing them using a single index value. It is a linear data structure holding all the elements in a sequence.
+Two-dimensional array: A two-dimensional array is a tabular array that includes rows and columns and stores data. An M × N two-dimensional array is created by grouping M rows and N columns into N columns and rows.
+Three-dimensional array: A three-dimensional array is a grid that has rows, columns, and depth as a third dimension. It comprises a cube with rows, columns, and depth as a third dimension. The three-dimensional array has three subscripts for a position in a particular row, column, and depth. Depth (dimension or layer) is the first index, row index is the second index, and column index is the third index.
